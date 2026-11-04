@@ -46,7 +46,14 @@ td input{width:100%}.low{color:var(--bad);font-weight:700}
 /* ===== CONFIG =====
    Pour synchroniser les stocks avec l'appli campagne BDE : colle ici la config Firebase
    du projet (Paramètres du projet > Vos applications). Laisse null pour un test local. */
-const FIREBASE_CONFIG = null;
+const firebaseConfig = {
+  apiKey: "AIzaSyAxVGPcCRkca9GQ9Lm2AsnSMHtXcFcWzRA",
+  authDomain: "campagne-bde-e0bc8.firebaseapp.com",
+  projectId: "campagne-bde-e0bc8",
+  storageBucket: "campagne-bde-e0bc8.firebasestorage.app",
+  messagingSenderId: "358004819258",
+  appId: "1:358004819258:web:f206defc581b48b9a4bc03"
+};
 const DOC_PATH = 'boutique/main';
 
 const DEF = {
